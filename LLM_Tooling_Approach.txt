@@ -1,0 +1,17 @@
+LLM tooling Plannign or structuring your application
+1. Create an empty folder - LLM_Tool_Calcualtor
+2. Launch this folder in VSC
+3. Create requirements.txt file and mention all libraries in it
+	A. langchain-ollama 
+	B. langchain-core and save the file
+3. Configure Virtual Environment
+	A. python -m venv evnv
+	B. Activate the Script 
+	C. pip upgrade command
+	D. Install libraries python -m pip install -r requirements.txt
+
+4. tools.py - Include the code for all the LLM tools @tool (langchain tools)
+5. Main.py - LLM object creation , prompt(System and User), bind_tool(tools)
+		invoke will give repsosne and pront response
+		U can create this main file as either console app or streamlit app
+
